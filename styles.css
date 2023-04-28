@@ -78,6 +78,7 @@ ul {
 .about-me {
   flex-basis: 60%;
   margin-left: 50px;
+  min-width: 505px;
 }
 
 .intro-title {
