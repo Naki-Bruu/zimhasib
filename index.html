@@ -13,6 +13,7 @@
     />
     <meta name="author" content="Nakibul Alam" />
     <title>Hasibul Alam</title>
+    <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./styles.css" />
     <link
       rel="shortcut icon"
@@ -26,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -38,10 +39,10 @@
       </div>
       <nav>
         <ul>
-          <li><a class="nav-link" href="#about">ABOUT ME</a></li>
-          <li><a class="nav-link" href="">RESUME</a></li>
-          <li><a class="nav-link" href="">PROJECTS</a></li>
-          <li><a class="nav-link" href="">CONTACT</a></li>
+          <li><a class="nav-link" href="#">ABOUT ME</a></li>
+          <li><a class="nav-link" href="./resume.html">RESUME</a></li>
+          <li><a class="nav-link" href="./projects.html">PROJECTS</a></li>
+          <li><a class="nav-link" href="./contact-me.html">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -79,8 +80,18 @@
         <div class="about-me" id="about">
           <p class="intro-title">Hello</p>
           <p class="intro-sub">Here's who I am & what I do</p>
-          <button class="resume-button button">RESUME</button>
-          <button class="projects-button button">PROJECTS</button>
+          <button
+            class="resume-button button"
+            onclick="window.location='./resume.html';"
+          >
+            RESUME
+          </button>
+          <button
+            class="projects-button button"
+            onclick="window.location='./projects.html';"
+          >
+            PROJECTS
+          </button>
           <p class="intro-desc one">
             I’m a Chemical Engineering enthusiast who is a great team player and
             a capable leader. Currently I’m working on a research project on
