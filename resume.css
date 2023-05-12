@@ -1,0 +1,152 @@
+body {
+  background-color: #e6dace;
+}
+
+.main-section {
+  width: 60%;
+  margin: auto;
+}
+
+.page-title {
+  padding-top: 100px;
+  font-family: var(--font-montserrat);
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.rectangle-title {
+  font-family: var(--font-montserrat);
+  color: var(--color-primary);
+  font-size: 1.7rem;
+  width: 70%;
+  margin: 80px auto 0;
+}
+
+.white-rectangle {
+  width: 70%;
+  min-width: 50%;
+  height: 270px;
+  background-color: #fff;
+  box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.19);
+  padding: 40px 20px 20px;
+  margin: 30px auto 40px;
+}
+
+.applied-flex {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.years {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.for-pad {
+  padding-left: 20px;
+}
+
+.white-rectangle p {
+  font-family: var(--font-montserrat);
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  line-height: 2;
+}
+
+.applied-flex p {
+  padding-bottom: 18px;
+}
+
+.side-title {
+  color: var(--color-primary);
+}
+
+.description {
+  width: 400px;
+}
+
+.white-rectangle .grey-text {
+  color: rgb(128, 130, 133);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.applied-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+
+.block {
+  height: 15px;
+  width: 15px;
+  background-color: var(--color-primary);
+}
+
+.adding {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.applied-flex .writing-part {
+  padding: 0 10px;
+}
+
+#footer {
+  width: 100%;
+  margin: 20px 0 0;
+  height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .main-section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .page-title {
+    padding-top: 40px;
+    font-size: 2.4rem;
+  }
+
+  .rectangle-title {
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 50px 0 0 20px;
+  }
+
+  .white-rectangle {
+    width: 90%;
+    height: 400px;
+    margin: 30px auto 0;
+  }
+
+  .applied-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .description {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .applied-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 80px);
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+
+  .adding {
+    flex-direction: row;
+  }
+}
