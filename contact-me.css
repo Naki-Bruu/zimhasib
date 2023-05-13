@@ -83,8 +83,23 @@ body {
 
 #footer {
   width: 100%;
-  margin: 20px 0 0;
   height: 100px;
   position: relative;
   bottom: -195px;
+}
+
+@media screen and (max-width: 500px) {
+  .page-title {
+    padding-top: 40px;
+    font-size: 2.4rem;
+  }
+
+  .contactForm {
+    width: 90%;
+    padding: 40px;
+  }
+
+  #footer {
+    bottom: -40px;
+  }
 }
