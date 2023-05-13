@@ -70,3 +70,36 @@ body {
   margin: 20px 0 0;
   height: 100px;
 }
+
+@media screen and (max-width: 500px) {
+  .page-title {
+    padding-top: 40px;
+    font-size: 2.4rem;
+    width: 200px;
+    margin: auto;
+  }
+
+  .main-description {
+    width: 100%;
+    margin: 0 auto 50px;
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+
+  .white-rectangle {
+    width: 90%;
+    margin: 0 auto 50px;
+    height: 500px;
+  }
+
+  .white-rectangle .project-image {
+    display: none;
+  }
+
+  .project-description {
+    width: 90%;
+    font-family: var(--font-montserrat);
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+  }
+}
