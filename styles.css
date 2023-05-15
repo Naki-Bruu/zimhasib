@@ -51,7 +51,8 @@
   font-family: var(--font-roboto);
 }
 
-.intro-desc.one {
+.intro-desc.one,
+.intro-desc.two {
   margin-bottom: 1rem;
 }
 
@@ -181,7 +182,9 @@
     min-width: 360px;
     margin-left: 0;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 50px;
   }
 
   .intro-title {
@@ -193,6 +196,10 @@
   .intro-sub {
     font-weight: 600;
     font-size: 1.3rem;
+  }
+
+  .button {
+    margin-bottom: 1.1rem;
   }
 
   footer {
